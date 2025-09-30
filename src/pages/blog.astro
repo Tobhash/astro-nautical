@@ -1,0 +1,96 @@
+---
+title: "Blog";
+description: "Read the latest articles and updates";
+layout: "../layouts/BaseLayout.astro";
+---
+
+<section class="blog-container">
+  <h1>Blog</h1>
+  <p class="subtitle">Latest articles, tutorials, and updates from our team.</p>
+  <div class="blog-list">
+    <!-- Example blog post card -->
+    <article class="blog-card">
+      <a href="/blog/first-post">
+        <img
+          src="/images/blog-placeholder.jpg"
+          alt="Blog post thumbnail"
+          class="blog-thumbnail"
+        />
+        <div class="blog-content">
+          <h2>Getting Started with Astro</h2>
+          <p class="blog-meta">June 10, 2024 &middot; 5 min read</p>
+          <p class="blog-excerpt">
+            Learn how to build blazing fast websites with Astro. This guide
+            covers the basics to get you up and running quickly.
+          </p>
+        </div>
+      </a>
+    </article>
+    <!-- Repeat <article> for more posts -->
+  </div>
+</section>
+
+<style>
+  .blog-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .subtitle {
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  .blog-list {
+    display: grid;
+    gap: 2rem;
+  }
+  .blog-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+  }
+  .blog-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  }
+  .blog-card a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+  }
+  .blog-thumbnail {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .blog-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blog-meta {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+  }
+  .blog-excerpt {
+    color: #444;
+    margin: 0;
+  }
+  @media (max-width: 600px) {
+    .blog-card a {
+      flex-direction: column;
+    }
+    .blog-thumbnail {
+      width: 100%;
+      height: 180px;
+    }
+  }
+</style>
