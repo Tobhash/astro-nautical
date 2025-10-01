@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "Astro Components Deep Dive"
 pubDate: 2025-09-30
 description: "Explore how to build and use components in Astro for modular, maintainable sites."
@@ -8,10 +9,6 @@ image:
   alt: "Astro components illustration."
 tags: ["astro", "components", "web development"]
 ---
-
-# Astro Components Deep Dive
-
-Astro's component model lets you build modular, reusable UI blocks using your favorite frameworks or native `.astro` files.
 
 ## Why Components?
 
