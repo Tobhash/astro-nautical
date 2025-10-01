@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "Markdown Magic in Astro"
 pubDate: 2025-09-30
 description: "Discover advanced Markdown features and tips for content-rich Astro sites."
@@ -8,10 +9,6 @@ image:
   alt: "Markdown with sparkles and magic wand."
 tags: ["astro", "markdown", "content", "tips"]
 ---
-
-# Markdown Magic in Astro
-
-Astro supports powerful Markdown features for content creators and bloggers.
 
 ## Advanced Markdown Features
 

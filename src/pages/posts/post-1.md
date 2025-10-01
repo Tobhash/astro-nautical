@@ -1,18 +1,13 @@
-title: 'Astro Markdown Showcase'
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: "Astro Markdown Showcase"
 pubDate: 2025-09-30
-description: 'A demonstration of Markdown capabilities in Astro.'
-author: 'Astro Learner'
+description: "A demonstration of Markdown capabilities in Astro."
+author: "Astro Learner"
 image:
-url: 'https://docs.astro.build/assets/rose.webp'
-alt: 'The Astro logo on a dark background with a pink glow.'
+url: "https://docs.astro.build/assets/rose.webp"
+alt: "The Astro logo on a dark background with a pink glow."
 tags: ["astro", "markdown", "showcase", "features"]
-
-# Astro Markdown Showcase
-
-> **Published on:** 2025-09-30
->
-> _Explore the full power of Markdown in Astro!_
-
 ---
 
 ## Table of Contents
