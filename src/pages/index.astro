@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 const header = "Astro";
 ---
 
@@ -10,9 +11,7 @@ const header = "Astro";
     <meta name="generator" content={Astro.generator} />
     <title>{header}</title>
   </head>
-  <body
-    style="font-family: system-ui, sans-serif; max-width: 700px; margin: 2rem auto; padding: 2rem;"
-  >
+  <body>
     <a href="/">Home</a>
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
